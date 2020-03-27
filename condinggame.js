@@ -23,6 +23,9 @@ while (true) {
 
     // Write an action using console.log()
     // To debug: console.error('Debug messages...');
+    /**
+     * com
+     */
     if (N === 3) {
         console.log(1, 2);
     } else if (N === 4) {
