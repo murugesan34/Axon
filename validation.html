@@ -8,10 +8,14 @@
 </head>
 
 <body>
-  <template id="my-input" class="myinput">
+  <template id="my-input">
     <style>
       #input:invalid {
         border: solid #F00 2px;
+      }
+      /*hiding the element*/
+      .my-input .let-lb:nth-of-type(2) {
+        display: none;
       }
     </style>
     <h1>
@@ -22,7 +26,7 @@
       <label>
         <input type="radio" name="validation-type" value="number" checked /> Numbers
       </label>
-      <label>
+      <label class="let-lb">
         <input type="radio" name="validation-type" value="letter" /> Letters
       </label>
       <label>
@@ -33,7 +37,7 @@
   <my-input>
     <span slot="label">Validation:</span>
   </my-input>
-  <my-input>
+  <my-input class="my-input">
     <span slot="label">Validation:</span>
   </my-input>
 
