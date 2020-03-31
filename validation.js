@@ -6,18 +6,38 @@
 var MyInput = class extends HTMLElement {
   constructor() {
     super();
+    let itemArr = [];
 
     const template = document.getElementById('my-input');
     const templateContent = template.content;
 
-    this.el = this.attachShadow({ mode: 'open' });
+    this.el = this.attachShadow({ mode: 'open' })
 
     this.el.appendChild(templateContent.cloneNode(true));
 
     this.inputEl = this.el.querySelector('#input');
+
+
+    this.labEl = this.el.querySelectorAll('.let-lb');
+
+    let labLetter = sessionStorage.getItem('labLetter');
+    // console.log(someVarKey);
+    var index = (labLetter > 0) ? parseInt(labLetter) : 0;
+    // console.log(index);
+    sessionStorage.setItem('labLetter', index + 1);
+    if (index === 1) {
+      this.labEl[0].id = 'let-' + index;
+      sessionStorage.clear();
+    } else {
+      this.labEl[0].id = 'let-' + index;
+    }
+    if (this.labEl[0].id === 'let-1') {
+      this.labEl[0].style.display = 'None';
+    }
   }
 
   connectedCallback() {
+
     this.el.querySelector('#input').addEventListener('keyup', this.handleKeyDown);
   }
 

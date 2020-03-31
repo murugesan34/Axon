@@ -13,15 +13,11 @@
       #input:invalid {
         border: solid #F00 2px;
       }
-      /*hiding the element*/
-      .my-input .let-lb:nth-of-type(2) {
-        display: none;
-      }
     </style>
     <h1>
       <slot name="label">Label default text</slot>
     </h1>
-    <div><input type="text" id="input" /></div>
+    <div><input type="text" id="input"/></div>
     <div>
       <label>
         <input type="radio" name="validation-type" value="number" checked /> Numbers
@@ -34,10 +30,11 @@
       </label>
     </div>
   </template>
+  
   <my-input>
     <span slot="label">Validation:</span>
   </my-input>
-  <my-input class="my-input">
+  <my-input>
     <span slot="label">Validation:</span>
   </my-input>
 
