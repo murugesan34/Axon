@@ -1,0 +1,79 @@
+﻿https://discord.gg/gxvEWGU -> free courses
+myet -> extension for adding bootstrap class automatically
+
+What is angular?
+
+	Angular is a javascript framework which allows you to create reactive 
+	single page applications. (SPA)
+
+	Single page applications what does its means, its a applications, 
+	and navigate with each page, and we can see in the url that changes 
+	its happen, and it won't load the pages. and also we have one index.html file 
+	in this file its load all the javascript files. 
+	and render it in the browser through the DOM, 
+	and also we can  very quick updates the elements, and interact with server also. 
+	its look and feel like a mobile applications.
+	
+what is Typescript?
+	Typescript is the superset of Javascript, it have more features like classes, interface
+	etc. and also main thing name of typing if you are declaring the variable as integer, but when you
+	are assing as string value, writing time itself its shown the error, but javascript 
+	there we have dynamic typing. so therefore we can write a strong code, it will check
+	it write time, not run time.
+
+What is DataBinding?
+	Databinding is a communication between typescript(Business Logic) & Template(HTML) file.
+
+	Output Data (TypeScript 2 Template)
+		1. String Interpolation {{data}} property/expression
+		2. property binding [property] = data
+
+	React to (USER) Events (Template 2 TypeScript)
+		1. Event Binding ( (event) = "expression")
+
+	combination of Both : Two-way-binding ([(ngModel)]="data")
+
+what is components?
+
+	components are key feature in angular, you build your whole application by composing from a couple of components, which you create on your own.
+
+	Each component have own template html code and own css and own business logic.
+
+	Its allow to complex application we can split into small components and later we can very easy to update, exchange and reuse the components.
+
+what are Directives?
+
+	Directives are instructions in the DOM. 
+
+What is local references templates?
+	it will whole the html element properties.
+	It only used template itself not inside typescript code.
+
+what is @viewChild?
+	
+	local references variable or any element can directly access in typescript code using decorated @viewChild
+
+	syntax:-
+	@viewChild('referencevariable') serverContentInput: ElementRef	
+	
+What is lifecycle?
+		
+
+Angular8 Feature:-
+	differeintiate loading modern javascript:-
+	angular router backward compatability
+	dependency updates
+	support typescrpit 3&4
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
