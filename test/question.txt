@@ -1,0 +1,57 @@
+JavaScript
+
+	1. arrow function 
+
+	2. difference between arrow function & normal function
+
+	3. map, filter uses
+
+	4. Angular and React which is the best?
+
+	5. how to create component?
+
+	6. [1,2,3,4,5,6,7,8,9,10] multiple of 3 -> 3,6,9,12, how to use it
+
+	7. [1,2,3,....100] => need to match with 3 like 3,13,23,33, etc how to use the logic
+
+	8. angular8 feature => lazy loading
+
+
+Client Rounds:-
+
+	1. Scoping concept (Javascript)
+
+	2. Var, let, const
+
+	3.  i = 10 without declaring var, let, const what is the output?
+
+	4. call, apply difference?
+
+	5. function add(a,b){
+		return a + b;
+	   }
+		add(10,20);
+		add.apply([10,20]);
+	what is the difference?
+
+	6. add(10,20);
+	   add.call(10,20);
+		what is the difference?
+	7. carousel.js the fadein/fadeout to delay how?
+
+	8. angular architecture how to work?
+
+	9. angular injectable?
+
+	10. what are Directives?
+
+	11. What is DataBinding?
+
+	12. how to pass data to parent to child
+
+	13. child to  parent?
+
+	14. Html5 feature?
+
+	15. dependency?
+				

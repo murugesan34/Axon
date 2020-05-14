@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scope</title>
+    </head>
+    <body>
+
+    </body>
+    <script>
+        i = 10;
+        console.log(i);
+        function add(){
+            console.log(i)
+        }
+        add();
+        console.log(window.i);
+    </script>
+</html>
