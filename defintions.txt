@@ -1,0 +1,96 @@
+﻿Encapsulation:-
+
+	Encapsulation is a main concepts of object oriented programming. It allows an object to group all private and public members under a single name.
+	
+	
+Arrow function and normal functions difference:-
+	1. arrow functions introduced on Es6
+	2. regular functions and arrow functions do the similar process main difference
+	3. arrow functions automatically binds this to the surrounding code's context.
+	4. arrow functions are only ‘callable’ and not constructible.
+	5. Don't work with new and cannot be used when creating prototype. 
+	
+	
+DOM?
+
+	1. DOM Standards for Document Object Modle.
+	
+	2. It contains all the elements inside tree structure.
+
+	3. DOM is a platform and language-netural interface that allows the programs and script to dynamically access and update the content, structure, style of a document
+	
+Prototype:
+
+	When a normal function is created in javascript. Javascript engines adds a prototype property for that functions.
+
+	Based on that we can add / modify that function and reuse the properties and methods in another function.
+
+
+Inheritance:-
+
+	In classical inheritance methods from base class get copied into derived class. In Javascript inheritance support by using prototype object.
+
+Event Listiner:-
+
+	Event Listiner is a procedure or functions in a computer program, that waits for an events to occurs. Example of an events user clicking, moving the mouse,
+	pressing a key on the keyboard etc.
+
+	The Listiner is programmed to react to an input. 
+
+	document.addEventListiner(event, listiner, useCapture);
+
+Event Emitter:-
+	
+	EventEmitter Provides multiple properties like on and emit. on property is used to bind the function with the event and emit is used to fire an event.
+
+Event bubbling:-
+
+	When an event happens on an element, its first runs, the handler on it. then on its parent, then all the way up on other ancestors.
+
+Event stopPropagation:-
+
+	stops the move upwards, but on the current elements all other handlers it will run.
+
+Event stopImmediatePropagation() 
+
+	To stop the bubbling and prevent handlers on the current elements from running.
+
+Event Capturing:-
+
+	Events first goes through the ancestors chain and down to the element. then it reaches the target and triggers the target phases. and then its goes up
+	bubbling phase calling handler on its way.
+
+Destructor operators:-
+
+	We can extract the smaller fragments from an object and array. Destructor syntax we can use for variable declartion and variable assignment.
+	let a, b, rest;
+	var arr = [10,20,30,40,50];
+	[a, b, ...rest] = arr;
+	a =10
+	b=20;
+	rest = 30,40,50 
+
+Rest Parameters:-
+	Rest Parameters 
+	
+	
+Spread Operator:-
+	
+	Its allow iterable such as array literal or string to be expanded in place where zero or more arguments (for function call) or elements 
+	(for array literal) are expected.
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+
+
